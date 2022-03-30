@@ -8,7 +8,7 @@ class TestUppercase(TestCase):
         self.assertEqual(actual, expected)
 
 class TestAlternateCase(TestCase):
-    def test_uppercase(self):
+    def test_alternatecase(self):
         actual = MagicString.alternatecase("hello world")
         expected = "HeLlO WoRlD"
         self.assertEqual(actual, expected)
